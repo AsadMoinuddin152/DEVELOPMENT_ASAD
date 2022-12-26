@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input From user</title>
+    
+</head>
+<body>
+    <h1>The number the user entered is</h1>
+    <div id="Numberdisplay"></div>
+    <script>
+        function userInput(){
+            let v1 = prompt("Enter the number ", 0);
+            console.log(v1);
+            document.getElementById("Numberdisplay").innerHTML = "<h1> " + v1 +"</h1>";
+        }
+        userInput();
+    </script>
+</body>
+</html>
