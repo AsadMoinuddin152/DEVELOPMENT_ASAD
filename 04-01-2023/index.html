@@ -34,10 +34,10 @@
     <script>
         function addingelemetns()
         {
-            var p= document.createElement('h1');
-            var name = document.getElementById("UserName").value;
-            p.appendChild(name);
-            var d= document.getElementById('Inundate');
+            const p= document.createElement('h1');
+            const name = document.getElementById("UserName").value;
+            p.innerHTML+=name;
+            const d= document.getElementById('Inundate');
             d.appendChild(p);
         }
     </script>
@@ -53,11 +53,11 @@
             <input type="Submit" class="InputBox" value="Submit" style="background: transparent; border: transparent;" onclick="addingelemetns()">
         <hr>
         <div style="display: flex;">
-        <div id="Inundate"class="message_div"></div>
-        <div >
-            <img class="Thank_you_Image" src="thank-you-lettering-blurred-lights-background-thank-you-lettering-102011881.jpg" alt="Thank_you_Image">
+            <div id="Inundate"class="message_div"></div>
+            <div >
+                <img class="Thank_you_Image" src="thank-you-lettering-blurred-lights-background-thank-you-lettering-102011881.jpg" alt="Thank_you_Image">
+            </div>
         </div>
-    </div>
     </div>
 </body>
 </html>
