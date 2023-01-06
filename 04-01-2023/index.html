@@ -31,23 +31,29 @@
             margin: 10px;
         }
     </style>
+    <script>
+        function addingelemetns()
+        {
+            var p= document.createElement('h1');
+            var name = document.getElementById("UserName").value;
+            p.appendChild(name);
+            var d= document.getElementById('Inundate');
+            d.appendChild(p);
+        }
+    </script>
 </head>
 <body>
     <div class="first">
         <h1>Hello, Welcome to my website</h1>
         <hr>
-        <form action="">
-            <input type="text" class="InputBox" placeholder="Enter your name.">
+            <input type="text" class="InputBox" placeholder="Enter your name." name="Name" id="UserName">
             <br>
-            <input type="number" class="InputBox" id="" placeholder="Enter your age">
+            <input type="number" class="InputBox"  placeholder="Enter your age" name="Age" id="UserAge">
             <br>
-            <input type="Submit" class="InputBox" id="" value="Submit" style="background: transparent; border: transparent;">
-        </form>
+            <input type="Submit" class="InputBox" value="Submit" style="background: transparent; border: transparent;" onclick="addingelemetns()">
         <hr>
         <div style="display: flex;">
-        <div class="message_div">
-            <h1>hello this is adding name dynamically section</h1>
-        </div>
+        <div id="Inundate"class="message_div"></div>
         <div >
             <img class="Thank_you_Image" src="thank-you-lettering-blurred-lights-background-thank-you-lettering-102011881.jpg" alt="Thank_you_Image">
         </div>
