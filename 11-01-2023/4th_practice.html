@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Conversion</title>
+    <style>
+        *{
+            text-align: center;
+            padding: 10px 50px;
+            margin: 10px;
+            font-size: large;
+        }
+    </style>
+    <script>
+        function temperaturechange(){
+            var NumberInput = document.getElementById("Temp").value;
+            var choice = document.getElementsByName("temp");
+            
+        }
+    </script>
+</head>
+<body>
+    
+        <input type="number" id="Temp" placeholder="Enter the temperature">
+        <h1>Select the Temperature</h1><input type="radio" checked value="celcius" name="temp">Celcius
+        <input type="radio" value="farenheit" name="temp" > Fareheit <br>
+        <button onclick="temperaturechange()">Convert</button>
+</body>
+</html>

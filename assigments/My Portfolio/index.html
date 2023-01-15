@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        *{
+            margin-left: 5px;
+        }
+        h1{
+            margin: 50px auto 0 auto;
+            color: #66BFBF;
+            line-height: 2;
+            font-size: 2em;
+        }
+        .image{
+            border-radius: 25px;
+            width: 400px;
+            height: 300px;
+            border: 1px solid;
+        }
+        hr{
+            border: dotted #bdc6c6 10px;
+            border-bottom: none;
+            width: 4%;
+            margin:  auto;
+        }
+        .Contact{
+            text-align: center;
+        }
+        input, textarea{
+            width: 300px;
+            height: 50px;
+        }
+        input::placeholder, textarea::placeholder{
+            font-size: 1.5rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="MYDeatils">
+            <table cellspacing="10">
+                <td>
+                    <img class="image" src="./My pic.jpg" alt="asad profile picture">
+                </td>
+                <td>
+                <h1>Asad Moinuddin</h1>
+                <p><em>Student of <strong><a href="https://www.lords.ac.in/">Lords institute of Engineering and Technology</a></strong>.</em><br></p>
+                <p>I am Asad Moinuddin. I am currently persuaing my Bachalor of Engineering, Computer Scinece Engineering (2nd Year) from Lords institute of Engineering and Technology. </p>
+                </td>
+            </table>
+            <hr>
+            <table cellspacing = "10">
+                <td>
+                    <img src="./Process.jpg" alt="process in progress" style="border: 1px solid; border-radius: 25px;">
+                </td>
+                <td>
+                    <h1>Process under progress.</h1>
+                </td>
+            </table>
+            <hr>
+            <table cellspacing = "10">
+                <td>
+                    <img class="image" src="./Achievements.jpg" alt="Achievements">
+                </td>
+                <td>
+                    <h2>Completed Fullstack Web development Course from <a href="https://careerx.club/">CareerX.club</a></h2>
+                </td>
+            </table>
+            <hr>
+    </div>
+    <br>
+    <div class="Contact">
+        <h1>Contact</h1>
+        <form class="" action="mailto:moinuddinasad@gmail.com" method="post" enctype="text/plain">
+            
+            <input type="text" placeholder="Name" name="Yourname" value="">
+            <br>
+            <br>
+            
+            <hr>
+            <br>
+            <input type="email" placeholder="Email" name="Youremail" value="">
+            <br>
+            <br>
+            
+            <hr>
+            <br>
+            <input type="tel" id="phone" placeholder="Number" name="phone">
+            <br>
+            <br>
+            
+            <hr>
+            <br>
+            <textarea placeholder="Your Feedback" name="Yourmessage"></textarea>
+            <br>
+            <br>
+            <hr>
+            <br>
+            <input type="submit" name="" style="background-color: #66BFBF; border-radius: 25px; font-size: larger;  ">
+        </form>
+    </div>
+</body>
+</html>
