@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        class student
+{
+   // constructor
+    constructor(id,name,section)
+    {
+         // properties declaration
+        this.id=id;
+        this.name=name;
+        this.section=section;
+
+    }
+    // methods declaration
+    printStudentDetails()
+    {
+        document.writeln("student ID : "+this.id+"<br>student Name : "+this.name+"<br>student section : "+this.section);
+    }
+}
+
+var stu1=new student(101,"Neel","A");
+var stu2=new student(102,"Uttam","B");
+var stu3=new student(103,"Gargesh","C");
+
+emp1.printStudentDetails();
+document.writeln("<hr height='5px'>");
+emp2.printStudentDetails();
+document.writeln("<hr height='5px'>");
+emp3.printStudentDetails();
+    </script>
+    
+</body>
+</html>
