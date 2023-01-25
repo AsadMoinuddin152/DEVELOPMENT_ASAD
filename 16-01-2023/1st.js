@@ -20,8 +20,8 @@ var stu1=new student(101,"Neel","A");
 var stu2=new student(102,"Uttam","B");
 var stu3=new student(103,"Gargesh","C");
 
-emp1.printStudentDetails();
+stu1.printStudentDetails();
 document.writeln("<hr height='5px'>");
-emp2.printStudentDetails();
+stu2.printStudentDetails();
 document.writeln("<hr height='5px'>");
-emp3.printStudentDetails();
+stu3.printStudentDetails();
