@@ -3,14 +3,15 @@
 const fs = require('fs');
 const http = require('http');
 const url = require('url');
+
 /*
 setTimeout(() => console.log('Time 1 finished'), 0);
 setImmediate(() => console.log('Immediate 1 finished'));
 
 //third one to get executes
-fs.readFile('test-file.txt', () => {
-    console.log('I/O File Reading finished');
-});
+const text = fs.readFIle('test-file.txt', 'utf-8');
+
+console.log(text);
 //First one to get executed
 console.log('Hello from top level code');
 */
