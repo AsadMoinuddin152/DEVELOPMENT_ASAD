@@ -1,5 +1,5 @@
 /** @format */
-//Second ones to get executes
+
 const fs = require('fs');
 const http = require('http');
 const url = require('url');
@@ -41,9 +41,6 @@ server.on('request', (req, res) => {
     else {
         res.end('Page not Found');
     }
-
-    console.log('Request received!');
-    console.log(req.url);
 });
 
 server.on('close', () => {
